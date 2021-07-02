@@ -1,0 +1,30 @@
+List1=["cse","it",1,2,4,"mech","ece",456,765,765]
+
+Print list1
+List1.remove(456)
+Print"after modification list of elements"
+Print list1
+remove_element=list1.pop()
+Print"pop with out index"
+Print remove_element
+Print"after modification list of elements"
+Print"pop(5) with index"
+remove_element=list1.pop(5)
+Print"after modification list of elements"
+Print remove_element
+Print"pop(20) with index"
+
+Output
+List1=["cse","it",1,2,4,"mech","ece",456,765,765]
+After modification list of elements
+["cse","it",1,2,4,"mech","ece",765,765]
+Pop with out index
+765
+after modification list of elements 
+["cse","it",1,2,3,"mech","ece",456,765]
+Pop(5) with index
+"mech"
+after modification list of elements
+["cse","it",1,2,3,"ece",456,765]
+pop(20) with index
+Index error:pop index out of range 
